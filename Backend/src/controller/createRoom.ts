@@ -8,7 +8,7 @@ import { prisma } from "../db/src/db.js";
 export const createRoom =  async (req : Request , res :Response ) =>{
 
 try {
-
+   // hii i m ayush 
     const parsedData = roomSchema.safeParse(req.body) ;
      if(!parsedData.success){
     return res.status(400).json({

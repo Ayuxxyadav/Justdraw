@@ -1,54 +1,6 @@
-# 🔴 Dependencies
 node_modules/
-
-# 🔐 Environment variables
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# ⚡ Next.js build
 .next/
-out/
-
-# 🏗️ Build folders
 dist/
 build/
-
-# 📦 Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-*.log
-
-# 🧪 Coverage / testing
-coverage/
-
-# 💻 OS files
 .DS_Store
-Thumbs.db
-
-# 🧠 IDE / Editor
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# 🔒 Temporary files
-tmp/
-temp/
-
-# 🗃️ Cache
-.cache/
-
-# 🖼️ Optional large assets (if any)
-*.zip
-*.tar
-*.gz
-*.rar
-
-# 🔑 Keys & secrets
-*.pem
-*.key
